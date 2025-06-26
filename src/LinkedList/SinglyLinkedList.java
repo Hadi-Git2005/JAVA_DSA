@@ -3,7 +3,7 @@ class Node{
 	int data;
 	Node next;
 }
-class Method{
+class Methods{
 	static Node head;
 	static Node last;
 	public static void create(int data)
@@ -89,7 +89,7 @@ class Method{
 	}
 	
 }
-public class SinglyLinkedList extends Method{
+public class SinglyLinkedList extends Methods{
 	public static void main(String[] args)
 	{
 		insertAtBegin(1);
